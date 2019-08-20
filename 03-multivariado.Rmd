@@ -1,0 +1,7 @@
+# Análisis multivariado {#multivar}
+
+## Análisis de componentes principales
+
+## Cluster análisis  
+
+

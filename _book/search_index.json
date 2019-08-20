@@ -1,0 +1,11 @@
+[
+["index.html", "Técnicas especiales de análisis de datos fitopatológicos Prefacio", " Técnicas especiales de análisis de datos fitopatológicos Prefacio "],
+["corr.html", " 1 Correlacion 1.1 Correlación robusta 1.2 Analisis de mediación 1.3 Path análisis", " 1 Correlacion 1.1 Correlación robusta 1.2 Analisis de mediación 1.3 Path análisis "],
+["lm.html", " 2 Modelos lineares 2.1 Experimentos replicados 2.2 Modelo de coeficientes aleatorios", " 2 Modelos lineares 2.1 Experimentos replicados 2.2 Modelo de coeficientes aleatorios "],
+["glm.html", " 3 Modelos lineales generalizados 3.1 Variables binarias 3.2 Variables de conteos", " 3 Modelos lineales generalizados 3.1 Variables binarias 3.2 Variables de conteos "],
+["multivar.html", " 4 Análisis multivariado 4.1 Análisis de componentes principales 4.2 Cluster análisis", " 4 Análisis multivariado 4.1 Análisis de componentes principales 4.2 Cluster análisis "],
+["meta.html", " 5 Meta-análisis 5.1 Efectos fijos 5.2 Efectos aleatorios 5.3 Multivariado 5.4 Network meta-análisis", " 5 Meta-análisis 5.1 Efectos fijos 5.2 Efectos aleatorios 5.3 Multivariado 5.4 Network meta-análisis "],
+["sobreviv.html", " 6 Análisis de sobrevivecia", " 6 Análisis de sobrevivecia "],
+["network.html", " 7 Network análisis", " 7 Network análisis "],
+["clasif.html", " 8 Algoritmos de clasificación 8.1 Árboles regresores 8.2 Random forest 8.3 Boosted regression trees", " 8 Algoritmos de clasificación 8.1 Árboles regresores 8.2 Random forest 8.3 Boosted regression trees "]
+]

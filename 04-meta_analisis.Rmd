@@ -1,0 +1,9 @@
+# Meta-análisis {#meta}
+
+## Efectos fijos
+
+## Efectos aleatorios
+
+## Multivariado
+
+## Network meta-análisis

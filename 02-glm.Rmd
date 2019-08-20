@@ -1,0 +1,5 @@
+# Modelos lineales generalizados {#glm}
+
+## Variables binarias 
+
+## Variables de conteos

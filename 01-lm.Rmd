@@ -1,0 +1,5 @@
+# Modelos lineares {#lm}
+
+## Experimentos replicados
+
+## Modelo de coeficientes aleatorios

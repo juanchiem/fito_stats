@@ -1,0 +1,7 @@
+# Algoritmos de clasificación {#clasif}
+
+## Árboles regresores
+
+## Random forest
+
+## Boosted regression trees
