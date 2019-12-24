@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-
-<link rel="next" href="manícarbón-indice-de-severidad.html">
+<link rel="prev" href="manícarbón-indice-de-severidad.html">
+<link rel="next" href="olivoxylella-prevalencia.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -149,49 +149,22 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<!--bookdown:title:end-->
-<!--bookdown:title:start-->
-<div id="fitopatometría" class="section level1 unnumbered">
-<h1>Fitopatometría</h1>
-<p>Rama de la fitopatología que se ocupa de la teoría y la práctica de la evaluación cuantitativa de enfermedades (y/o patógenos).</p>
-<p><strong>Nivel de planta individual</strong></p>
-<ul>
-<li>Severidad: medida de la cantidad de enfermedad por unidad de muestreo (planta, m² de cultivo, fruto, etc.) . En fitopatología es comúnmente definida como el área (volumen) de tejido enfermo dividido por el total del área (volumen) (x100 para obtener un valor en porcentaje)</li>
-</ul>
-<p><strong>Nivel de parcela / lote</strong></p>
-<ul>
-<li><p>Incidencia: número de unidades muestreales (plantas) que están enfermas o infectadas por un agente patogénico. Expresado como un porcentaje (%) o proporción (0-&gt;1) del número total de unidades evaluadas.</p></li>
-<li><p>Indice de severidad: Estimación de severidad usando una escala de severidad que comprende una serie de intervalos de rangos numéricos.</p></li>
-</ul>
-<p>Por ej:</p>
-<pre class="sourceCode r"><code class="sourceCode r">grado  rango de severidad
-<span class="op">-----</span><span class="st">  </span><span class="op">------------------</span>
-<span class="st">    </span><span class="dv">0</span>                   <span class="dv">0</span>
-    <span class="dv">1</span>              <span class="dv">0</span><span class="op">&lt;=</span><span class="dv">25</span>%
-    <span class="dv">2</span>             <span class="dv">25</span><span class="op">&lt;=</span><span class="dv">50</span>%
-    <span class="dv">3</span>             <span class="dv">50</span><span class="op">&lt;=</span><span class="dv">75</span>%
-    <span class="dv">4</span>            <span class="dv">75</span><span class="op">&lt;=</span><span class="dv">100</span>%</code></pre>
-<p>La propuesta de <span class="citation">Madden, Hughes, and Van Den Bosch (<a href="#ref-madden2007study">2007</a>)</span> (Cap. 2, pág. 20) es corregir por el punto medio del rango de severidad:</p>
-<p><span class="math inline">\(IS(\%)=\frac {\sum frecuencia \: de \: grado\: \times\: punto \: medio \: del \: grado \:de\: escala} {total \: plantas \: evaluadas \times 100}\)</span></p>
-<p><strong>Nivel de región</strong></p>
-<ul>
-<li>Prevalencia: número de unidades de muestreo geográficas (lotes, campos, municipios, estados, regiones, etc.) donde se detectó una enfermedad o un patógeno, dividido por el número total de unidades de muestreo geográficas evaluadas.</li>
-</ul>
+<div id="colzaphoma---área-abajo-la-curva" class="section level1">
+<h1><span class="header-section-number"> 2</span> Colza/phoma - Área abajo la curva</h1>
+<p>Calcularemos un valor de AUC por parcela con auxilio de las funciones <code>group_by</code> y <code>summarize</code></p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co"># if(require(MESS)) {install.packages(&quot;MESS&quot;)}</span>
+can_long <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">group_by</span>(trt, bk) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">summarize</span>(<span class="dt">AUC =</span> MESS<span class="op">::</span><span class="kw">auc</span>(inc, tt))</code></pre>
 
-</div>
-<h3>References</h3>
-<div id="refs" class="references">
-<div id="ref-madden2007study">
-<p>Madden, Laurence V, Gareth Hughes, and Frank Van Den Bosch. 2007. “The Study of Plant Disease Epidemics.”</p>
-</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="manícarbón-indice-de-severidad.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="manícarbón-indice-de-severidad.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="olivoxylella-prevalencia.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

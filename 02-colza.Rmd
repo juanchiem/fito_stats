@@ -1,0 +1,25 @@
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, 
+                      warning = FALSE, 
+                      message = FALSE, 
+                      eval=FALSE, 
+                      fig.width = 12, 
+                      fig.height = 8)
+options(width = 90)
+library(tidyverse)
+```
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Colza/phoma - Área abajo la curva
+
+Calcularemos un valor de AUC por parcela con auxilio de las funciones `group_by` y `summarize` 
+
+```{r}
+# if(require(MESS)) {install.packages("MESS")}
+can_long %>%
+  group_by(trt, bk) %>%
+  summarize(AUC = MESS::auc(inc, tt))
+```
