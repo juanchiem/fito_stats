@@ -3,9 +3,9 @@ pacman::p_load(tidyverse, tidyselect)
 ```
 
 
-# Enfermedades que inducen senescencia 
+# Enf. inductoras de senescencia 
 
-## Trigo / enfermedades foliares 
+## Trigo/enf. foliares 
 
 ```{r}
 url_trigo <- "https://docs.google.com/spreadsheets/d/1QJuQ2Zm26ufVYklB7vak6gQej3Xtyvbtj1yPKDlczD0/edit#gid=407239570"
@@ -240,3 +240,5 @@ dat_foliar %>%
 #   facet_wrap(~var, ncol=4, scales = "free" )+
 #   theme_bw()
 ```
+
+## Soja/mancha anillada

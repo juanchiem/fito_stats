@@ -1,11 +1,9 @@
 bookdown::gitbook:
   css: style.css
+  split_by: section
   config:
     toc:
-bookdown::pdf_book:
-  includes:
-    in_header: preamble.tex
-  latex_engine: xelatex
-  citation_package: natbib
-  keep_tex: yes
-bookdown::epub_book: default
+      before: |
+        <li><a href="./">Introducción</a></li>
+      after: |
+        <li><a href="https://bookdown.org/" target="blank">Creado con Bookdown</a></li>

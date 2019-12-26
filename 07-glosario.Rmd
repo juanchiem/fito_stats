@@ -1,0 +1,114 @@
+# Glosario {-#glosario}
+
+
+Terminología comunmente usada en fitopatometría - epidemiología. Adaptado de [@nutter1991disease]
+
+*En elaboración!*
+
+- Accuracy: measure of the closeness of an estimate (disease assessment) to the true value (see also precision, reliability, repeatability).
+
+- Area under the curve (AUC): area under the line produced by graphing and connecting X-Y pairs, where Y values are measurements of disease intensity and X values are units of time (see also area under the disease progress curve).
+
+- Area under the disease progress curve (AUDPC): disease assessments (Y) plotted with respect to time (X) and integrated to numerically determine the area under the curve (see also area under the curve).
+
+- Critical point yield loss model: disease assessments (X) conducted at a growth stage or time determined by means of least squares regression to have the best relationship to yield or yield loss 
+(Y) = single point yield loss model) 
+
+- Crop loss assessment: quantitative estimation of proportion or actual amount of crop loss attributable to one or more pathogens (or pests).
+
+- Damage: any reduction in the quantity and/or quality of yield that results from injury.
+
+- Damage function: regression coefficient relating level of disease intensity (X) to yield or yield loss (Y) during a specific period of crop development.
+
+- Disease assessment: quantitative measurement of disease (phytopathometry) or the process of measuring disease cuantitatively.
+Disease class: descriptive category of a rating scale that corresponds to a defined level (or interval) of disease. 
+
+- Disease grade: description in words or numbers of amount of disease affecting yield quality.
+
+- Disease grading: matching sampling units (whole plants, leaves, fruit, etc.) to the nearest disease grade, most often during grading of disease as it affects quality (see also disease rating). 
+
+- Disease incidence: number of plant units sampled that are diseased expressed as a percentage or proportion of the total number of units assessed, e.g., proportion (percentage) of plants diseased in a population (see also disease prevalence).
+
+- Disease intensity: general term for amount of disease present in a population (see also disease incidence, disease prevalence, disease severity).
+
+- Disease management: strategic use of disease control tactics to economically manage the level of disease.
+
+- Disease prevalence: incidence of fields with diseased plants in a defined geographic area (county, state, etc.), i.e., number of fields where a disease is present divided by the total number of fields sampled (see also disease incidence, pathogen prevalence).
+
+- Disease progress: change in disease intensity over time.
+
+- Disease progress curve: graphical representation of disease progress produced by plotting disease intensity assessments (Y) vs. time (X).
+Disease rating: assigning to each unit of a sample population an appropriate disease class value or code number (see also disease grading).
+
+- Disease rating scale: description in words or numbers of disease classes (usually ranging from no disease to fully diseased) used in scoring plant parts, plants, plots, or fields disease scoring: see disease rating disease screening: using a disease assessment system to allow selection for a genetically controlled disease trait.
+
+- Disease severity: area of a sampling unit (plant surface) affected by disease, expressed as a percentage or proportion of the total area.
+
+- Disease survey: determination of prevalence, incidence, and/or severity of a disease for a defined population of cropping units (fields, forests, green houses) within a defined geographic area, with sample units selected to represent the geographic area of interest.
+
+- Field assessment key: rating aid to facilitate the rapid assessment of disease in crops or plots rather than in individual plants, leaves, fruit, or tubers.
+Frequency of occurrence of a disease intensity class: number of sampling units that fall into a specific disease intensity class (see also incidence of a disease intensity class).
+
+- Green leaf area duration (GLAD): integral of green leaf area index over time (days a crop is grown) (see also leaf area duration). 
+
+- Green leaf area index (GLAI): measure of photosynthetically active leaf tissue layers of a crop (in square meters) per square meter of land (see also leaf area index).
+
+- Growth (development) stage key: descriptive or pictorial representation of specific crop development stages, commonly used as a phenological reference to when disease assessments were conducted 
+
+- Incidence of a disease intensity class: number of sampling units falling into a specific disease intensity class divided by the total number of sampling units assessed, expressed as a percentage or proportion (see also frequency of occurrence of a disease intensity class)
+
+- Injury: visible or measurable symptoms and/or signs caused by a pathogen or pest.
+
+- Isolation frequency: number of times an organism is isolated from a sample population.
+
+- Leaf area duration (LAD): integral of leaf area index over time (days a crop is grown) (see also green leaf area duration).
+
+- Leaf area index (LAI): measure of leaf tissue layers of a crop (in square meters) per square meter of land (see also green leaf area index).
+
+- Loss estimation: approximate calculation of loss for a defined geographic area (field, county, state, etc.) by trained specialists (e.g., extension personnel, consultants, scouts, crop insurance appraisers). 
+
+- Multiple point yield loss model: two or more disease assessments conducted at different times and used as indepen dent variables in a multiple regression equation with respect to a single dependent variable (yield or yield component) to model the relationship between disease intensity (X) and yield or yield loss (Y).
+
+- Multispectral radiometer: instrument used to measure amount and quality of electromagnetic radiation reflected or emitted from a source
+
+- National crop loss assessment: national program to determine and document losses attributable directly to diseases or pests (see also regional crop loss assessment). 
+
+- Pathogen prevalence: incidence of fields in which soil or plants are infested with a pathogen, as determined from fields surveyed within a defined geographic area (county, state, etc.), i.e., number of fields where a pathogen is present divided by the total number of fields sampled (see also disease prevalence).
+
+- Percent disease: number of sample units lost (e.g., defoliated) plus sample units diseased divided by total number of sample units multiplied by 100 
+
+- Precision: measure of reliability and/or repeatability of disease assessments (see also accuracy, reliability, repeatability)
+
+- Prediction: estimate of future disease levels implying greater accuracy and precision than prognosis
+
+- Prognosis: forecast of probable course to a terminal status or effect, usually a level of disease intensity expected at a specific point in time.
+Quality assessment as affected by disease: determination of the relationship between disease intensity (X) and its effect on quality (Y) of a crop (see also disease grading) 
+
+- Radiation interception: amount of solar radiation captured by the photosyn thetic surface of a crop within a defined unit area, commonly expressed as MJ/m2/day 
+
+- Reflectance: proportion or percentage of incident electromagnetic radiation reflected by an object 
+
+- Regional crop loss assessment: estimate of losses in a given commodity or product (due to pathogens or pests) based on sample surveys and/or experimental results obtained by researchers within a defined geographic area (see also national crop loss assessment) 
+
+- Reliability: measure of consistency of disease assessments between or among observers (raters); measure of inter rater reliability (see also repeatability).
+ 
+- Remote sensing: information obtained about a sampling unit with a measuring device that is not in direct contact with the sampling unit. 
+
+- Repeatability: measure of the statistical relationship between repeated disease assessments of the same sampling units by the same individual or instrument; measure of intrarater repeatability (see also reliability) 
+- Reproducibility: see precision. 
+
+- Sample population: aggregate from which sample units for disease assessments are chosen (see also sample unit).
+
+- Sample unit: smallest unit on which a disease assessment is made (leaflet, leaf, tiller, whole plant, etc.) Single point yield loss model: see critical point yield loss model.
+
+- Standard area diagram: series of pictorial diagrams depicting amount of injury on individual sampling units (whole plants, leaves, fruit, tubers, etc.) expressed as proportion or percentage of the total surface area of a sampling unit.
+
+- Standard diagram: diagrammatic description of a discrete class or level on a disease rating scale.
+
+- Fitopatometría: The branch of plant pathology that deals with the theory and practice of quantitative disease (and/or pathogen) assessment. 
+
+- Prevalence: number of geographical sampling units (fields, farms, counties, states, regions, etc.) where a disease or pathogen has been detected, divided by the total number of geographical sampling units assessed.
+
+- Disease prevalence: measures the proportion (or percentage) of geographical sampling units (fields, counties, countries, etc.) where a disease (expressing symptoms) has been found to occur, divided by the total number of geographical sampling units inspected or surveyed.
+
+- Pathogen prevalence: measure of the number of geographical sampling units where the pathogen has been detected (e.g., by direct plating, inspections for the presence of pathogen signs, ELISA, PCR, etc.), divided by the total number of geographical sampling units that were inspected, tested, or indexed.

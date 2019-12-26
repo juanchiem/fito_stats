@@ -1,44 +1,37 @@
 --- 
-title: ""
+title: "Fitopatometría"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib, packages.bib]
+bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
+nocite: '@*'
 ---
 
-# Fitopatometría {-}
+# {-}
 
 Rama de la fitopatología  que se ocupa de la teoría y la práctica de la evaluación cuantitativa de enfermedades (y/o patógenos). 
 
 
-**Nivel de planta individual**
+<img src="fig/cornerstone.jpg" width="300" height="250" align="right" alt="Cover image" />
 
-- Severidad: medida de la cantidad de enfermedad por unidad de muestreo (planta, m² de cultivo, fruto, etc.) . En fitopatología es comúnmente definida como el área (volumen) de tejido enfermo dividido por el total del área (volumen) (x100 para obtener un valor en porcentaje)
+> Piedra angular del análisis de epidemias – Campbell and Neher (1994)
 
-**Nivel de parcela / lote**
+> Nuestra capacidad de comprender un fenómeno es proporcional a nuestra capacidad de medirlo – Lord Kelvin
 
-- Incidencia: número de unidades muestreales (plantas) que están enfermas o infectadas por un agente patogénico. Expresado como un porcentaje (%) o proporción (0->1) del número total de unidades evaluadas.
+> Sin la cuantificación de enfermedades, ningún estudio en  epidemiología, estimación de pérdidas de cultivos, o relevamientos de enfermedades y sus aplicaciones serían posibles - Kranz (1988)
 
-- Indice de severidad: Estimación de severidad usando una escala de severidad que comprende una serie de intervalos de rangos numéricos. 
+- No es una ciencia cerrada. Todo es aceptable, siempre y cuando sea bien detallado lo que estamos cuantificando. Importancia de consensuar terminología  
 
-Por ej: 
-
-```{r eval=FALSE}
-grado  rango de severidad
------  ------------------
-    0                   0
-    1              0<=25%
-    2             25<=50%
-    3             50<=75%
-    4            75<=100%
-```
-
-La propuesta de @madden2007study (Cap. 2, pág. 20) es corregir por el punto medio del rango de severidad:
-
-$IS(\%)=\frac {\sum frecuencia \: de \: grado\: \times\: punto \: medio \: del \: grado \:de\: escala} {total \: plantas \: evaluadas \times 100}$
+- Calibrar el equipo de evaluadores es siempre muy beneficioso, antes, durante y después del trabajo de evaluación. Veamos como andamos! [link](https://www6.inra.fr/quantipest_fre/Didacticiels/Quantification/Colza-oleagineux/PHOMADIDACTE)
 
 
-**Nivel de región**
 
-- Prevalencia: número de unidades de muestreo geográficas (lotes, campos, municipios, estados, regiones, etc.) donde se detectó una enfermedad o un patógeno, dividido por el número total de unidades de muestreo geográficas evaluadas.
+<b>Autor</b>
+
+* Juan Pablo Edwards Molina: Investigador :: Fitopatología (INTA Balcarce).
+    + Email: [edwardsmolina@gmail.com](mailto:edwardsmolina@gmail.com)
+    + [Google scholar](https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F5gLYB_brelSnzb1TTRxogsbxhyS6qVwhSaP-KHm-jeWxRpoHeH5iIj4ZTys10DUQLdH_3GLXxkLed9dzmZXLWtNu_gtg&user=RhjNQIsAAAAJ) 
+    + Twitter: [juanchiem](https://twitter.com/juanchiem)
+    + GitHub: <https://github.com/juanchiem>
+

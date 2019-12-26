@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Área abajo la curva
 
-## Colza / phoma  
+## Colza/phoma  
 
 Calcularemos un valor de AUC por parcela con auxilio de las funciones `group_by` y `summarize` 
 

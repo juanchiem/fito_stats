@@ -13,9 +13,19 @@ library(tidyverse)
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Incidencia y severidad 
+# Severidad e incidencia   
 
-## Olivo / bacteriosis 
+- Severidad: medida de la cantidad de enfermedad por unidad de muestreo (planta, m² de cultivo, fruto, etc.) . En fitopatología es comúnmente definida como el área (volumen) de tejido enfermo dividido por el total del área (volumen) (x100 para obtener un valor en porcentaje)
+
+**Nivel de parcela / lote**
+
+- Incidencia: número de unidades muestreales (plantas) que están enfermas o infectadas por un agente patogénico. Expresado como un porcentaje (%) o proporción (0->1) del número total de unidades evaluadas.
+
+**Nivel de región**
+
+- Prevalencia: número de unidades de muestreo geográficas (lotes, campos, municipios, estados, regiones, etc.) donde se detectó una enfermedad o un patógeno, dividido por el número total de unidades de muestreo geográficas evaluadas.
+
+## Olivo/bacteriosis 
 
 ![](fig/xylella.jpg)
 

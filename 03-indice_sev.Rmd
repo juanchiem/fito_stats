@@ -11,6 +11,24 @@ library(tidyverse)
 
 # Indice de severidad 
 
+- Indice de severidad: Estimación de severidad usando una escala de severidad que comprende una serie de intervalos de rangos numéricos. 
+
+Por ej: 
+
+```{r eval=FALSE}
+grado  rango de severidad
+-----  ------------------
+    0                   0
+    1              0<=25%
+    2             25<=50%
+    3             50<=75%
+    4            75<=100%
+```
+
+La propuesta de @madden2007study (Cap. 2, pág. 20) es corregir por el punto medio del rango de severidad:
+
+$IS(\%)=\frac {\sum frecuencia \: de \: grado\: \times\: punto \: medio \: del \: grado \:de\: escala} {total \: plantas \: evaluadas \times 100}$
+
 ## Maní/carbón  
 
 ![](fig/peanut_smut.png){width=200px}
