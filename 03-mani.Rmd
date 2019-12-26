@@ -9,7 +9,9 @@ options(width = 90)
 library(tidyverse)
 ```
 
-# Maní/carbón - Indice de severidad
+# Indice de severidad 
+
+## Maní/carbón  
 
 ![](fig/peanut_smut.png){width=200px}
 

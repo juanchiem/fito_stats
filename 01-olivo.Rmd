@@ -13,7 +13,9 @@ library(tidyverse)
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Olivo/xylella - prevalencia
+# Incidencia y severidad 
+
+## Olivo / bacteriosis 
 
 ![](fig/xylella.jpg)
 

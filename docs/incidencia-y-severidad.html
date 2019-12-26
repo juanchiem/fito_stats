@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Fitopatometría | fito_quant.utf8</title>
+  <title> 1 Incidencia y severidad | fito_quant.utf8</title>
   <meta name="description" content="" />
   <meta name="generator" content="bookdown 0.13 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Fitopatometría | fito_quant.utf8" />
+  <meta property="og:title" content=" 1 Incidencia y severidad | fito_quant.utf8" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Fitopatometría | fito_quant.utf8" />
+  <meta name="twitter:title" content=" 1 Incidencia y severidad | fito_quant.utf8" />
   
   
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="incidencia-y-severidad.html"/>
+<link rel="prev" href="index.html"/>
+<link rel="next" href="area-abajo-la-curva.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -153,40 +153,39 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<!--bookdown:title:end-->
-<!--bookdown:title:start-->
-<div id="fitopatometria" class="section level1 unnumbered">
-<h1>Fitopatometría</h1>
-<p>Rama de la fitopatología que se ocupa de la teoría y la práctica de la evaluación cuantitativa de enfermedades (y/o patógenos).</p>
-<p><strong>Nivel de planta individual</strong></p>
-<ul>
-<li>Severidad: medida de la cantidad de enfermedad por unidad de muestreo (planta, m² de cultivo, fruto, etc.) . En fitopatología es comúnmente definida como el área (volumen) de tejido enfermo dividido por el total del área (volumen) (x100 para obtener un valor en porcentaje)</li>
-</ul>
-<p><strong>Nivel de parcela / lote</strong></p>
-<ul>
-<li><p>Incidencia: número de unidades muestreales (plantas) que están enfermas o infectadas por un agente patogénico. Expresado como un porcentaje (%) o proporción (0-&gt;1) del número total de unidades evaluadas.</p></li>
-<li><p>Indice de severidad: Estimación de severidad usando una escala de severidad que comprende una serie de intervalos de rangos numéricos.</p></li>
-</ul>
-<p>Por ej:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1">grado  rango de severidad</a>
-<a class="sourceLine" id="cb1-2" title="2"><span class="op">-----</span><span class="st">  </span><span class="op">------------------</span></a>
-<a class="sourceLine" id="cb1-3" title="3"><span class="st">    </span><span class="dv">0</span>                   <span class="dv">0</span></a>
-<a class="sourceLine" id="cb1-4" title="4">    <span class="dv">1</span>              <span class="dv">0</span><span class="op">&lt;=</span><span class="dv">25</span>%</a>
-<a class="sourceLine" id="cb1-5" title="5">    <span class="dv">2</span>             <span class="dv">25</span><span class="op">&lt;=</span><span class="dv">50</span>%</a>
-<a class="sourceLine" id="cb1-6" title="6">    <span class="dv">3</span>             <span class="dv">50</span><span class="op">&lt;=</span><span class="dv">75</span>%</a>
-<a class="sourceLine" id="cb1-7" title="7">    <span class="dv">4</span>            <span class="dv">75</span><span class="op">&lt;=</span><span class="dv">100</span>%</a></code></pre></div>
-<p>La propuesta de <span class="citation">Madden, Hughes, and Van Den Bosch (<a href="#ref-madden2007study">2007</a>)</span> (Cap. 2, pág. 20) es corregir por el punto medio del rango de severidad:</p>
-<p><span class="math inline">\(IS(\%)=\frac {\sum frecuencia \: de \: grado\: \times\: punto \: medio \: del \: grado \:de\: escala} {total \: plantas \: evaluadas \times 100}\)</span></p>
-<p><strong>Nivel de región</strong></p>
-<ul>
-<li>Prevalencia: número de unidades de muestreo geográficas (lotes, campos, municipios, estados, regiones, etc.) donde se detectó una enfermedad o un patógeno, dividido por el número total de unidades de muestreo geográficas evaluadas.</li>
-</ul>
+<div id="incidencia-y-severidad" class="section level1">
+<h1><span class="header-section-number"> 1</span> Incidencia y severidad</h1>
+<div id="olivo-bacteriosis" class="section level2">
+<h2><span class="header-section-number">1.1</span> Olivo / bacteriosis</h2>
+<p><img src="fig/xylella.jpg" /></p>
+<p>Chequeamos cuántos árboles fueron evaluados en cada año/región/lote:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" title="1"><span class="kw">ftable</span>(<span class="kw">xtabs</span>(<span class="op">~</span>year<span class="op">+</span>loc<span class="op">+</span>farm, oli_long))</a></code></pre></div>
+<p>Imprimimos los 30 árboles de un mismo lote</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" title="1">oli_long <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb3-2" title="2"><span class="st">  </span><span class="kw">arrange</span>(loc, year) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb3-3" title="3"><span class="st">  </span><span class="kw">print</span>(<span class="dt">n=</span><span class="dv">30</span>)</a></code></pre></div>
+<p>Incidencia (nivel lote - evolución interanual)</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" title="1">dat_inc &lt;-<span class="st"> </span>oli_long <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb4-2" title="2"><span class="st">  </span><span class="kw">group_by</span>(year, loc, farm) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb4-3" title="3"><span class="st">  </span><span class="kw">summarise</span>(<span class="dt">inc =</span> <span class="kw">mean</span>(sev<span class="op">&gt;</span><span class="dv">0</span>, <span class="dt">na.rm=</span><span class="ot">TRUE</span>)<span class="op">*</span><span class="dv">100</span>) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb4-4" title="4"><span class="st">  </span>ungroup <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb4-5" title="5"><span class="st">  </span><span class="kw">arrange</span>(loc, year)</a>
+<a class="sourceLine" id="cb4-6" title="6">dat_inc</a></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" title="1"><span class="kw">ggplot</span>(dat_inc, <span class="kw">aes</span>(<span class="dt">x=</span><span class="kw">factor</span>(year), <span class="dt">y=</span>inc, <span class="dt">color=</span><span class="kw">factor</span>(farm))) <span class="op">+</span></a>
+<a class="sourceLine" id="cb5-2" title="2"><span class="st">  </span><span class="kw">geom_point</span>() <span class="op">+</span></a>
+<a class="sourceLine" id="cb5-3" title="3"><span class="st">  </span><span class="kw">geom_line</span>(<span class="kw">aes</span>(<span class="dt">group=</span>farm)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb5-4" title="4"><span class="st">  </span><span class="kw">facet_grid</span>(. <span class="op">~</span><span class="st"> </span>loc)</a></code></pre></div>
+<p>Prevalencia (nivel región - evolución interanual)</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" title="1">dat_prev  &lt;-<span class="st"> </span>dat_inc <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb6-2" title="2"><span class="st">  </span><span class="kw">group_by</span>(year, loc) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb6-3" title="3"><span class="st">  </span><span class="kw">summarise</span>(<span class="dt">prev =</span> <span class="kw">trunc</span>(<span class="kw">mean</span>(inc<span class="op">&gt;</span><span class="dv">0</span>, <span class="dt">na.rm=</span><span class="ot">TRUE</span>)<span class="op">*</span><span class="dv">100</span>)) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb6-4" title="4"><span class="st">  </span>ungroup <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb6-5" title="5"><span class="st">  </span><span class="kw">arrange</span>(loc,year)</a>
+<a class="sourceLine" id="cb6-6" title="6">dat_prev</a></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" title="1"><span class="kw">ggplot</span>(dat_prev, <span class="kw">aes</span>(<span class="dt">x=</span><span class="kw">factor</span>(year), <span class="dt">y=</span>prev, <span class="dt">color=</span><span class="kw">factor</span>(loc))) <span class="op">+</span></a>
+<a class="sourceLine" id="cb7-2" title="2"><span class="st">  </span><span class="kw">geom_point</span>() <span class="op">+</span></a>
+<a class="sourceLine" id="cb7-3" title="3"><span class="st">  </span><span class="kw">geom_line</span>(<span class="kw">aes</span>(<span class="dt">group=</span>loc))</a></code></pre></div>
 
-</div>
-<h3>References</h3>
-<div id="refs" class="references">
-<div id="ref-madden2007study">
-<p>Madden, Laurence V, Gareth Hughes, and Frank Van Den Bosch. 2007. “The Study of Plant Disease Epidemics.”</p>
 </div>
 </div>
             </section>
@@ -194,8 +193,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-
-<a href="incidencia-y-severidad.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="area-abajo-la-curva.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

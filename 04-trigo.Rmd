@@ -3,7 +3,9 @@ pacman::p_load(tidyverse, tidyselect)
 ```
 
 
-# Trigo/enfermedades foliares - retención foliar
+# Enfermedades que inducen senescencia 
+
+## Trigo / enfermedades foliares 
 
 ```{r}
 url_trigo <- "https://docs.google.com/spreadsheets/d/1QJuQ2Zm26ufVYklB7vak6gQej3Xtyvbtj1yPKDlczD0/edit#gid=407239570"

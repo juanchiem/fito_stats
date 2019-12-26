@@ -13,7 +13,9 @@ library(tidyverse)
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Colza/phoma - Área abajo la curva
+# Área abajo la curva
+
+## Colza / phoma  
 
 Calcularemos un valor de AUC por parcela con auxilio de las funciones `group_by` y `summarize` 
 
