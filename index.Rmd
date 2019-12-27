@@ -13,7 +13,7 @@ nocite: '@*'
 Rama de la fitopatología  que se ocupa de la teoría y la práctica de la evaluación cuantitativa de enfermedades (y/o patógenos). 
 
 
-<img src="fig/cornerstone.jpg" width="300" height="250" align="right" alt="Cover image" />
+<img src="fig/cornerstone.jpg" width="200" height="150" align="right" alt="Cover image" />
 
 > Piedra angular del análisis de epidemias – Campbell and Neher (1994)
 
@@ -21,10 +21,9 @@ Rama de la fitopatología  que se ocupa de la teoría y la práctica de la evalu
 
 > Sin la cuantificación de enfermedades, ningún estudio en  epidemiología, estimación de pérdidas de cultivos, o relevamientos de enfermedades y sus aplicaciones serían posibles - Kranz (1988)
 
-- No es una ciencia cerrada. Todo es aceptable, siempre y cuando sea bien detallado lo que estamos cuantificando. Importancia de consensuar terminología  
+- No es una disciplina cerrada. Todo es relativamente aceptable, siempre y cuando sea bien detallado lo que estamos cuantificando. Por ello la importancia de consensuar terminología (Ver [glosario])
 
-- Calibrar el equipo de evaluadores es siempre muy beneficioso, antes, durante y después del trabajo de evaluación. Veamos como andamos! [link](https://www6.inra.fr/quantipest_fre/Didacticiels/Quantification/Colza-oleagineux/PHOMADIDACTE)
-
+- Calibrar el equipo de evaluadores es siempre muy beneficioso, antes, durante y después del trabajo de evaluación. Veamos que tal andamos! [link](https://www6.inra.fr/quantipest_fre/Didacticiels/Quantification/Colza-oleagineux/PHOMADIDACTE)
 
 
 <b>Autor</b>
@@ -34,4 +33,4 @@ Rama de la fitopatología  que se ocupa de la teoría y la práctica de la evalu
     + [Google scholar](https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F5gLYB_brelSnzb1TTRxogsbxhyS6qVwhSaP-KHm-jeWxRpoHeH5iIj4ZTys10DUQLdH_3GLXxkLed9dzmZXLWtNu_gtg&user=RhjNQIsAAAAJ) 
     + Twitter: [juanchiem](https://twitter.com/juanchiem)
     + GitHub: <https://github.com/juanchiem>
-
+    

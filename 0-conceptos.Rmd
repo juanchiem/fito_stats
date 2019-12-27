@@ -1,0 +1,7 @@
+# Conceptos generales
+
+```{r editar esquema, eval=FALSE, echo = FALSE}
+browseURL("https://docs.google.com/drawings/d/1JJgSQvXQaaVWGa4ceMiNkOw_4sfrRr1X4GGDz5K6TOI/edit?usp=sharing")
+```
+
+![](https://docs.google.com/drawings/d/e/2PACX-1vQ5PnkHgJjzgLM5YLuXSYtpPvKr5G-bZ1ZTMokF6Bx8VP2NjUePBLazp1fFti2Gb120YkRFA9mI5RuS/pub?w=960&h=720)
